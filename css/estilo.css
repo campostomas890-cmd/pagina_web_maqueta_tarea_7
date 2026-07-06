@@ -94,3 +94,26 @@ footer {
     border-top-right-radius: 50px;
     box-sizing: content-box;
 }
+/* Opción A: Forzar un ancho específico a cada columna */
+.row-cols-md-2 > .col {
+    flex: 0 0 auto;
+    width: 40%; /* Cambia el porcentaje para alterar el tamaño de las tarjetas */
+}
+/* Selecciona todas las imágenes que están dentro de la sección historia */
+#historia-box img {
+    width: 100%;             /* Obliga a la imagen a ocupar todo el ancho de la columna */
+    height: 250px;           /* Fuerza a que ambas tengan exactamente la misma altura */
+    object-fit: cover;       /* Recorta el sobrante para que no se deformen ni se estiren */
+    object-position: center;  /* Centra el recorte de la imagen */
+}
+.mapa iframe{
+     width: 100%;
+     aspect-ratio: 1.2;
+}
+html{
+    scroll-behavior: smooth;
+}
+.scroll_section{
+    scroll-margin-top: 60px;
+}
+
