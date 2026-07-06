@@ -54,9 +54,7 @@
 <div class="container-fluid">
     <!--aca va ir todo el contenido de la pagina info biografia etc-->
 </div>
-<footer>
-    <p class="text-center">Diseñado por Tomas Andres Campos año 2026</p>
-</footer>
+
 <div class="container-fluid">
     <div id="home" class="row align-items-center hero">
         <div class="col-lg-3 offset-lg-2">
@@ -65,24 +63,6 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi esse optio quasi saepe maiores facere beatae sint, nostrum aliquid vitae voluptas et natus fuga sapiente porro nobis consectetur quidem!</p>
         </div>
     </div>
-</div>
-
-<!--SECTOR NOVEDADES-->
-<div class="row my-3">
-    <div id="novedades" class="col-md-5 offset-md-2 py-3">
-        <h2>Novedades</h2>
-        <ul class="lista-novedades">
-        <li><a href="#"> <img src="imagenes o videos/download.jpg"> Nueva resetas 1</a></li>
-        <li><a href="#"> <img src="imagenes o videos/download.jpg"> Nueva resetas 2</a></li>
-        <li><a href="#"> <img src="imagenes o videos/download.jpg"> Nueva resetas 3</a></li>
-        <li><a href="#"> <img src="imagenes o videos/download.jpg"> Nueva resetas 4</a></li>
-        <li><a href="#"> <img src="imagenes o videos/download.jpg"> Nueva resetas 5</a></li>
-        </ul>
-    </div>
-    <li>
-        <a href="#" data-bs-toggle="modal" data-bs-target="exampleModal">
-            <img src="imagenes o videos/maquillaje.jpg">Nuevas recetas 1</a>
-    </li>
 </div>
 
 <!--inicio modal-->
@@ -107,72 +87,93 @@
   <div class="row align-items-stretch">
     
     <div class="col-md-7 mb-4 mb-md-0">
-      <h3 class="fw-bold mb-3">Novedades</h3>
-      
-      <div class="list-group">
-        <div class="list-group-item list-group-item-action d-flex align-items-center active bg-secondary border-secondary">
-          <img src="imagenes o videos/cosmeticos.2.jpg" alt="Recetas" class="rounded me-3" style="width: 60px; height: 45px; object-fit: cover;">
-          <span>Nuevos productos</span>
-        </div>
-        </div>
+      <!--SECTOR NOVEDADES-->
+      <h2 class="titulo-seccion mb-4">Novedades</h2>
+      <ul class="lista-novedades">
+        <li>
+          <a href="#">
+            <img src="imagenes o videos/producto_Limpieza_de_rostro.jpg" alt="Receta 1">
+            <span>Nuevas recetas 1</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="imagenes o videos/cosmeticos.4.jpg" alt="Receta 2">
+            <span>Nuevas recetas 2</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="imagenes o videos/labiales.jpg" alt="Receta 3">
+            <span>Nuevas recetas 3</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="imagenes o videos/download.jpg" alt="Receta 4">
+            <span>Nuevas recetas 4</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="imagenes o videos/retoques.jpg" alt="Receta 5">
+            <span>Nuevas recetas 5</span>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <div class="col-md-5">
-      <div class="p-4 h-100 text-center rounded" style="background-color: #e9ecef; min-height: 300px;">
-        <h3 class="fw-bold mb-4" style="color: #333;">Testimonios</h3>
+      <div class="p-4 h-100 text-center rounded contenedor-testimonios d-flex flex-column justify-content-center">
+        <h2 class="titulo-seccion mb-4">Testimonios</h2>
         
         <div id="carouselExampleCaptions" class="carousel slide dark-control" data-bs-ride="carousel">
           
-          <div class="carousel-indicators position-relative mt-4 mb-0">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
-          </div>
+          <div class="carousel-inner">
 
-          <div class="carousel-inner mt-3">
-            
             <div class="carousel-item active">
-              <img src="imagenes o videos/cosmeticos.1.jpg" class="rounded-circle mx-auto mb-3" alt="Calidad" style="width: 80px; height: 80px; object-fit: cover;">
-              <div class="text-dark px-4">
-                <p class="fst-italic">"Mejores Maquillajes, excelente calidad y precio."</p>
-                <h6 class="fw-bold small">- Valentina, Córdoba</h6>
+              <div class="px-4">
+                <p class="fst-italic">"Muy buena calidad los Maquillajes"</p>
+                <h6 class="small text-muted">- Micaela, Monte Grande</h6>
               </div>
             </div>
 
             <div class="carousel-item">
-              <img src="imagenes o videos/cosmeticos.2.jpg" class="rounded-circle mx-auto mb-3" alt="Precio" style="width: 80px; height: 80px; object-fit: cover;">
-              <div class="text-dark px-4">
-                <p class="fst-italic">"Precios súper accesibles por venta mayor y menor."</p>
-                <h6 class="fw-bold small">- Laura, Buenos Aires</h6>
+              <div class="px-4">
+                <p class="fst-italic">"Me gusto el muy bueno recomendable el sitio para comprar."</p>
+                <h6 class="small text-muted">- Sofi Perez, Santiago del Estero</h6>
               </div>
             </div>
 
             <div class="carousel-item">
-              <img src="imagenes o videos/cosmeticos.3.jpg" class="rounded-circle mx-auto mb-3" alt="Accesorios" style="width: 80px; height: 80px; object-fit: cover;">
-              <div class="text-dark px-4">
-                <p class="fst-italic">"Me encantaron los labiales y la variedad de accesorios."</p>
-                <h6 class="fw-bold small">- Sofía, Rosario</h6>
+              <div class="px-4">
+                <p class="fst-italic">"Excelente atención y los productos llegaron rapidísimo."</p>
+                <h6 class="small text-muted">- Carla Gomez, Tucumán</h6>
               </div>
             </div>
 
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon filter-dark" aria-hidden="true" style="filter: invert(1);"></span>
+          </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
             <span class="visually-hidden">Anterior</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon filter-dark" aria-hidden="true" style="filter: invert(1);"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
             <span class="visually-hidden">Siguiente</span>
           </button>
 
-        </div>
-      </div>
-    </div>
+          <div class="carousel-indicators position-relative mt-4 mb-0">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-dark"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-dark"></button>
+          </div>
 
-  </div>
-</div>
+        </div> </div> </div> ```
 
+---
+
+<footer>
+  <p class="derecho-text py-3 m-0">Diseñado por:Campos Tomas Andres </p>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
