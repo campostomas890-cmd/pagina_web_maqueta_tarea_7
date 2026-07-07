@@ -57,9 +57,9 @@ h1, h2, h3, .titulo-seccion {
     opacity: 1;
 }
 
-/* Caja de Testimonios (Derecha) */
+
 .contenedor-testimonios {
-    background-color: #dbdbdb !important; /* Gris idéntico a la maqueta */
+    background-color: #dbdbdb !important; 
     min-height: 350px;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, .titulo-seccion {
     color: #212529;
 }
 
-/* Ajuste de los indicadores del carrusel (Las rayitas de abajo) */
+
 .carousel-indicators [data-bs-target] {
     width: 30px;
     height: 4px;
@@ -78,7 +78,7 @@ h1, h2, h3, .titulo-seccion {
 /* Footer */
 footer {
     background-color: #aaa;
-    border-top: 3px solid #dc3545; /* Línea roja/fucsia que se ve abajo de todo */
+    border-top: 3px solid #dc3545; 
 }
 
 .derecho-text {
@@ -94,7 +94,7 @@ footer {
     border-top-right-radius: 50px;
     box-sizing: content-box;
 }
-/* Opción A: Forzar un ancho específico a cada columna */
+*/
 .row-cols-md-2 > .col {
     flex: 0 0 auto;
     width: 40%; /* Cambia el porcentaje para alterar el tamaño de las tarjetas */
